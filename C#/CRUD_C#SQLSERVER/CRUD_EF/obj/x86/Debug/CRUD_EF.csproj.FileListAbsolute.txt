@@ -1,0 +1,10 @@
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\bin\Debug\CRUD_EF.exe.config
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\bin\Debug\CRUD_EF.exe
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\bin\Debug\CRUD_EF.pdb
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\CRUD_EF.Form1.resources
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\CRUD_EF.Properties.Resources.resources
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\CRUD_EF.exe
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Debug\CRUD_EF.pdb

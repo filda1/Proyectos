@@ -1,0 +1,13 @@
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EFCRUDAPP.exe.config
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EFCRUDAPP.exe
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EFCRUDAPP.pdb
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.csprojResolveAssemblyReference.cache
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.Form1.resources
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.Properties.Resources.resources
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.csproj.GenerateResource.Cache
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.exe
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\obj\Debug\EFCRUDAPP.pdb
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EntityFramework.dll
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EntityFramework.SqlServer.dll
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EntityFramework.xml
+F:\profession\Youtube Channel\Dotnet Mob\Windows Application\EF CRUD\Project\EFCRUDAPP\EFCRUDAPP\bin\Debug\EntityFramework.SqlServer.xml

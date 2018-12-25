@@ -1,0 +1,5 @@
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Release\CRUD_EF.Form1.resources
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Release\CRUD_EF.Properties.Resources.resources
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Mac\documents\visual studio 2010\Projects\CRUD_EF\CRUD_EF\obj\x86\Release\GenerateResource.write.1.tlog
