@@ -1,0 +1,15 @@
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\WinFormsSQLSERVER.exe.config
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\WinFormsSQLSERVER.exe
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\WinFormsSQLSERVER.pdb
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.csprojAssemblyReference.cache
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.Form1.resources
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.Properties.Resources.resources
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.csproj.GenerateResource.cache
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.csproj.CoreCompileInputs.cache
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.exe
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.pdb
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\EntityFramework.dll
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\EntityFramework.SqlServer.dll
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\EntityFramework.xml
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\bin\Debug\EntityFramework.SqlServer.xml
+C:\Proyectos VisulaStudio\Proyect\WinFormsSQLSERVER\WinFormsSQLSERVER\obj\Debug\WinFormsSQLSERVER.csproj.CopyComplete
