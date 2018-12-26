@@ -15,12 +15,14 @@ namespace WinFormsSQLSERVER.Views
         TextBox numDoc { get; set; }
         DataGridView DataGridText { get; set; }
 
-
+  
         Button ButtonNewText { get; set; }
         Button ButtonSendText { get; set; }
         Button ButtonDeleteText { get; set; }
         Button ButtonDeleteAllText { get; set; }
         Button ButtonLineText { get; set; }
+        Button ButtonPrintText { get; set; }
+        
 
 
     }

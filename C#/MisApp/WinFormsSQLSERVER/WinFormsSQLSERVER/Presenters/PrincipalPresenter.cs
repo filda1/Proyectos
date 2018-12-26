@@ -105,7 +105,7 @@ namespace WinFormsSQLSERVER.Presenters
                     TypeofUserId = 1,
                     FirstName = "dq",
                     LastName = nDocumento,
-                    Email = "sss@vvv.com",
+                    Email = "www@vvv.com",
                     Telephone = "12334",
                     Address = dates,
                     Location = "VVV",
@@ -159,7 +159,8 @@ namespace WinFormsSQLSERVER.Presenters
                     view.ButtonDeleteText.Enabled = false;
                     view.ButtonDeleteAllText.Enabled = false;
                     view.ButtonLineText.Enabled = false;
-                    
+                    view.ButtonPrintText.Enabled = false;
+
                     view.numDoc.Text ="";
                     view.ComboBox1Text.Text = "";
                     view.ComboBox1Text.Items.Clear();

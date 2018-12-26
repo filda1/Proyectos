@@ -17,7 +17,10 @@ namespace WinFormsSQLSERVER
 {
     public partial class Form1 : Form, IInterfaz
     {
+        PrincipalPresenter p;
+        Bitmap bmp;
 
+        // Interface
         public ComboBox ComboBox1Text
         {
             get => comboBox1;
@@ -75,7 +78,11 @@ namespace WinFormsSQLSERVER
             get => textBox1;
             set => textBox1= value;
         }
-     
+        public Button ButtonPrintText {
+            get => button6;
+            set => button6 = value;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -84,14 +91,15 @@ namespace WinFormsSQLSERVER
         private void Form1_Load(object sender, EventArgs e)
         {
             textBox2.Text = DateTime.Now.ToString("dd .MM . yyyy");
-           // textBox2.Text = DateTime.Now.ToShortDateString();
+            // textBox2.Text = DateTime.Now.ToShortDateString();
             ColumnsDataGV();
+
 
             comboBox1.Enabled = false;
             textBox1.Enabled = false;
             textBox2.Enabled = false;
             ActiveContrary();
-
+           
       
         }
         // Combox
@@ -99,7 +107,7 @@ namespace WinFormsSQLSERVER
         {
             // Value selected
             String valueCombo = comboBox1.SelectedItem.ToString();
-            PrincipalPresenter p = new PrincipalPresenter();
+            p = new PrincipalPresenter();
             p.ValueComboBox = valueCombo;
 
         }
@@ -113,7 +121,7 @@ namespace WinFormsSQLSERVER
         private void button1_Click(object sender, EventArgs e)
         {
 
-            PrincipalPresenter p = new PrincipalPresenter(this);
+            p = new PrincipalPresenter(this);
             p.FillCombox();
             p.NumDoc();
 
@@ -140,7 +148,7 @@ namespace WinFormsSQLSERVER
         {
             dataGridView1.AllowUserToAddRows = false;  // Not Visible first Rown
 
-            PrincipalPresenter p = new PrincipalPresenter(this);
+            p = new PrincipalPresenter(this);
             DataGridViewComboBoxColumn combo = p.SearchListId();
             this.dataGridView1.Columns.Insert(0, combo);
 
@@ -182,7 +190,7 @@ namespace WinFormsSQLSERVER
                 DataGridViewRow selectedRow = dataGridView1.Rows[indexCell_0];
                 var valueSearch = selectedRow.Cells[0].Value.ToString();
 
-                PrincipalPresenter p = new PrincipalPresenter(this);
+                p = new PrincipalPresenter(this);
                 p.SearchId(valueSearch, indexCell_0);
             }
             catch
@@ -209,7 +217,7 @@ namespace WinFormsSQLSERVER
         private void button5_Click(object sender, EventArgs e)
         {
             ArrayList row = new ArrayList
-            {   "", "",  "0" };
+            {   "", "",  " " };
 
             dataGridView1.Rows.Add(row.ToArray());
 
@@ -261,7 +269,7 @@ namespace WinFormsSQLSERVER
         {
             
 
-            PrincipalPresenter p = new PrincipalPresenter(this);
+            p = new PrincipalPresenter(this);
             p.Process();
           
 
@@ -317,6 +325,7 @@ namespace WinFormsSQLSERVER
             button3.Enabled = true;
             button4.Enabled = true;
             button5.Enabled = true;
+            button6.Enabled = true;
         }
 
         private void ActiveContrary()
@@ -325,6 +334,7 @@ namespace WinFormsSQLSERVER
             button3.Enabled = false;
             button4.Enabled = false;
             button5.Enabled = false;
+            button6.Enabled = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -336,6 +346,7 @@ namespace WinFormsSQLSERVER
         {            
         }
 
+
         // Controls the error in cell 2 by being different from decimal
         private void dataGridView1_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
@@ -343,6 +354,27 @@ namespace WinFormsSQLSERVER
             {
                 MessageBox.Show("Tem que inserir um numero valido em Qta. Ej: 2 o 2,0");
             }
+        }
+
+
+        // Print Document, necessary printPreviewDialog1 and  printDocument1
+        private void button6_Click(object sender, EventArgs e)
+        {
+             int height = dataGridView1.Height;
+             dataGridView1.Height = dataGridView1.RowCount * dataGridView1.RowTemplate.Height * 2;
+             bmp = new Bitmap(dataGridView1.Width, dataGridView1.Height);
+             dataGridView1.DrawToBitmap(bmp, new Rectangle(0, 0, dataGridView1.Width, dataGridView1.Height));
+             dataGridView1.Height = height;
+             
+            printPreviewDialog1.Document = printDocument1;
+            printPreviewDialog1.ShowDialog();
+        }
+
+
+        // Print Document, necessary printPreviewDialog1 and  printDocument1
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            e.Graphics.DrawImage(bmp, 0, 0);
         }
     }
 }
